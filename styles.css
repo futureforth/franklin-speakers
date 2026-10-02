@@ -123,4 +123,9 @@ section[id]{scroll-margin-top:64px}
 .talk-cta{margin-top:8px}
 @media (min-width:900px){.talk{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:center;gap:48px}}
 
+.site-footer .wrap{display:flex;flex-direction:column;gap:10px}
+.fineprint{font-size:13px;line-height:1.5;color:rgba(255,255,255,.72);max-width:640px}
+.fineprint a{color:#fff}
+.fineprint a:hover{color:var(--orange-400)}
+
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
